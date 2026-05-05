@@ -1,0 +1,9 @@
+Smallest eigenvalue of A in magnitude: 2
+Corresponding eigenvector: 
+0.999999
+1
+Dominant eigenvalue of A_inv in magnitude: 0.5
+Corresponding eigenvector: 
+0.999999
+1
+1.0/0.5=2
