@@ -30,7 +30,3 @@ g++ project2/matrix_inverse_solver.cpp -o project2_solver
 ```
 
 Adjust command-line arguments if you use the alternative implementation in `project1/gaussian_elimination_solver_ai_assisted.cpp`.
-
-## Notes
-
-The repository includes source code, sample inputs, sample outputs, and documentation. Course prompts, compiled binaries, submission archives, editor settings, and unrelated materials are not included.
