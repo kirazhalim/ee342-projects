@@ -1,32 +1,29 @@
-# EE342 Projects
+# EE342 Numerical Linear Algebra Projects
 
-This repository contains two C++ numerical linear algebra projects developed for coursework. The projects include matrix/vector input files and sample outputs.
+This repository contains two C++ projects from my EE342 coursework. I worked on numerical linear algebra problems such as Gaussian elimination, matrix inversion, and eigenvalue-related calculations.
 
-## Projects
+The repository has 2 project folders and 3 C++ source files. I also included sample input and output files so the results can be checked easily.
 
-- `project1`: matrix/vector operations and solver implementation with sample input files `A.txt` and `B.txt`.
-- `project2`: matrix inverse/solver workflow with sample input files `A.txt` and `A_inv.txt`.
+## What I Did
 
-## Source Files
+- Implemented Gaussian elimination with partial pivoting.
+- Solved a linear system using matrix and vector input files.
+- Implemented a matrix inverse workflow with a reusable matrix class.
+- Compared outputs with the provided sample result files.
+- Kept one AI-assisted version of the first solver as a separate file.
 
-- `project1/gaussian_elimination_solver.cpp`: original Gaussian elimination implementation with partial pivoting and back substitution.
-- `project1/gaussian_elimination_solver_ai_assisted.cpp`: AI-assisted variant of the same linear-system solver.
-- `project2/matrix_inverse_solver.cpp`: matrix inverse workflow using a reusable matrix class.
+## Repository Structure
 
-## What Is Excluded
+```text
+project1/    Gaussian elimination solver
+project2/    Matrix inverse and eigenvalue-related workflow
+```
 
-Compiled executables, ZIP submissions, editor settings, assignment prompts, and docx reports are excluded.
-
-## Build and Run
-
-Compile with a standard C++ compiler:
-
-```bash
+## How to Run
+```
 g++ project1/gaussian_elimination_solver.cpp -o project1_solver
 ./project1_solver project1/A.txt project1/B.txt
 
 g++ project2/matrix_inverse_solver.cpp -o project2_solver
 ./project2_solver project2/A.txt
 ```
-
-Adjust command-line arguments if you use the alternative implementation in `project1/gaussian_elimination_solver_ai_assisted.cpp`.
